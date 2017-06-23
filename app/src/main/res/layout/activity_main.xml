@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.lenovo.weixin.MainActivity">
+    <com.yinglan.alphatabs.AlphaTabsIndicator
+        android:id="@+id/alphaIndicator"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal">
+
+        <com.yinglan.alphatabs.AlphaTabView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+
+            app:tabIconNormal="@mipmap/ic_launcher"
+            app:tabIconSelected="@mipmap/ic_launcher"
+            app:tabText="woshi"
+            app:tabTextSize="12sp"
+            app:textColorNormal="@color/colorAccent"
+            app:textColorSelected="@color/colorPrimary"
+            app:badgeBackgroundColor="@color/colorAccent"
+            />
+
+
+
+
+    </com.yinglan.alphatabs.AlphaTabsIndicator>
+
+
+</LinearLayout>
